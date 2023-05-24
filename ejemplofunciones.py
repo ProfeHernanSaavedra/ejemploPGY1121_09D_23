@@ -10,3 +10,5 @@ aNac = int(input("Ingrese su año Nacimiento: "))
 fn.calcularEdad(aActual,aNac)
 
 print("hola 1")
+
+print("hola 2")
