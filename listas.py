@@ -1,0 +1,36 @@
+nombres = []
+
+nombres = ["juan","maria","pedro"]
+
+print(nombres[0])
+print(nombres[1])
+print(nombres[2])
+print()
+print(nombres)
+print(nombres[-1])
+print(nombres[-2])
+nombres.append("Francisco")
+print(nombres)
+print(nombres[3])
+nombres.extend(["perez",'gonzalez','el mas vivo'])
+numero = ["Perico","Pastor"]
+nombres.extend(numero)
+nombres.insert(2,"PEPE")
+nombres.remove("PEPE")
+print(nombres)
+nombres.pop()
+print(nombres)
+nombres.pop(2)
+print(nombres)
+nombres.reverse()
+print(nombres)
+print("***DATOS LISTA****")
+print(nombres)
+variable = input("ingrese el dato a eliminar: ")
+nombres.remove(variable)
+print(nombres)
+print("**********")
+numeros = [3,2,8]
+print(numeros)
+numeros.sort()
+print(numeros)
