@@ -12,3 +12,14 @@ fn.calcularEdad(aActual,aNac)
 print("hola 1")
 
 print("hola 2")
+
+print("Funciones con retorno")
+suma = fn.sumar(2,3)
+print(suma)
+print(fn.sumar(4,6))
+print()
+areaC = fn.areaCirculo(3)
+print(areaC)
+
+
+
